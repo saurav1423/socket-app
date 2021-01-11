@@ -1,5 +1,5 @@
 //Create  connection
-var socket = io.connect('http://localhost:9090');
+var socket = io.connect(window.location.hostname);
 
 //Query DOM
 var message = document.querySelector('#message');
